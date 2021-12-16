@@ -1,25 +1,13 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2268
 
-# The files installed by the script conform to the Filesystem Hierarchy Standard:
-# https://wiki.linuxfoundation.org/lsb/fhs
-
-# The URL of the script project is:
-# https://github.com/v2fly/fhs-install-v2ray
-
-# The URL of the script is:
-# https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
-
-# If the script executes incorrectly, go to:
-# https://github.com/v2fly/fhs-install-v2ray/issues
-
 # You can set this variable whatever you want in shell session right before running this script by issuing:
 # export DAT_PATH='/usr/local/share/v2ray'
-DAT_PATH=${DAT_PATH:-/usr/local/share/v2ray}
+DAT_PATH=${DAT_PATH:-/usr/myconf/v2ray}
 
 # You can set this variable whatever you want in shell session right before running this script by issuing:
 # export JSON_PATH='/usr/local/etc/v2ray'
-JSON_PATH=${JSON_PATH:-/usr/local/etc/v2ray}
+JSON_PATH=${JSON_PATH:-/usr/myconf}
 
 # Set this variable only if you are starting v2ray with multiple configuration files:
 # export JSONS_PATH='/usr/local/etc/v2ray'
